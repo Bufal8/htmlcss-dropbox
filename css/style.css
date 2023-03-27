@@ -15,31 +15,106 @@ body{
     padding: 7px 15px;
 }
 
+.bluebutton a{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+
 /* Regole Header */
 header{
     display: flex;
     justify-content: space-between;
     height: 80px;
     position: fixed;
-    background-color: brown;
+    background-color: #fff;
     width: 100vw;
+    margin-bottom: 100px;
 }
 
 .left-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .right-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px;
 }
-
 
 .sezione-header{
     padding: 20px;
+}
+
+/* Regole Main */
+main{
+    padding-top: 60px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.jumbotron{
+    background-color: #B3D0E7;
+}
+
+.jumbotxtimg{
+    display: flex;
+}
+
+.jumbo-container{
+    margin: 20px 80px;
+}
+
+.jumbotext{
+    width: 30%;
+}
+
+.jumboimg{
+    width: 70%;
+}
+
+.jumboimg img{
+    max-width: 100%;
+}
+
+/* Regole Footer */
+footer{
+    padding-top: 250px;
+    padding: 20px 80px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 40px;
+}
+
+.lingua{
+    padding-top: 30px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 0;
+    padding-right: 0;
+    border-top: solid 2px;
+    border-color: #BFBFBF;
 }
