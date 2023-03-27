@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole Generali */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bluebutton{
+    background-color: #0160FF;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+/* Regole Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    background-color: brown;
+    width: 100vw;
+}
+
+.left-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.sezione-header{
+    padding: 20px;
+}
