@@ -107,6 +107,7 @@ h1{
 /* Regole plan selector */
 .plan-table{
     display: flex;
+    margin: 30px auto;
 }
 
 .table-header{
@@ -157,6 +158,67 @@ ul{
 .plan-highlights{
     margin-top: 15px;
     padding-top: 15px;
+}
+
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-row{
+    margin-top: 60px;
+}
+
+.solution{
+    padding: 20px 30px;
+}
+
+/* Regole sezione trova un partner */
+.find-partner{
+    margin: 150px 25px;
+    display: flex;
+}
+.partnerimg{
+    /* width: 100%; */
+    height: auto;
+}
+
+.partnerimg img{
+    max-width: 100%;
+}
+
+.partnertxt{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sezione 6 cards */
+.operations{
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto 50px;
+    justify-content: space-between;
+}
+
+.strumenti{
+    width: calc(100% / 3 - 50px);
+    margin: 40px auto;
+}
+
+.strumenti h4{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.strumenti-img{
+    width: 250px;
+    height: 250px;
+}
+
+.strumenti-img img{
+    max-width: 100%;
 }
 /* Regole Footer */
 footer{
