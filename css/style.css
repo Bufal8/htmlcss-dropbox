@@ -237,6 +237,77 @@ h2{
 }
 
 /* Regole sezione company */
+.partner{
+    width: 100vw;
+    display: flex;
+}
+
+.company{
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company-card{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.company-card img{
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.company-info{
+    font-size: 12px;
+}
+.selected{
+    background-color: #F5F5F5;
+    padding: 25px;
+}
+
+.selected-img img{
+    width: 50%;
+}
+
+#card1{
+    background-color: #A2D39B;
+}
+
+#card2{
+    background-color: #61092B;
+}
+
+#card3{
+    background-color: #0093CE;
+}
+
+#card4{
+    background-color: #FF1B1C;
+}
+
+#card5{
+    background-color: #D5001F;
+}
+
+#card6{
+    background-color: #B3D0E7;
+}
+
+#card7{
+    background-color: #0E2381;
+}
+
+#card8{
+    background-color: #FFD72F;
+}
 
 /* Regole Footer */
 
