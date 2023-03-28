@@ -179,7 +179,6 @@ ul{
     display: flex;
 }
 .partnerimg{
-    /* width: 100%; */
     height: auto;
 }
 
@@ -194,7 +193,7 @@ ul{
 }
 
 
-/* Sezione 6 cards */
+/* Regole sezione 6 cards */
 .operations{
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +219,27 @@ ul{
 .strumenti-img img{
     max-width: 100%;
 }
+
+/* Regole sezione clienti */
+.team-client{
+    margin: 50px 25px;
+    padding-right: 400px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.clienti a{
+    text-decoration: underline;
+    color: #0160FF;
+}
+
+/* Regole sezione company */
+
 /* Regole Footer */
+
 footer{
     padding-top: 250px;
     padding: 20px 80px;
