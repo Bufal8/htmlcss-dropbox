@@ -121,6 +121,8 @@ h1{
 .plan-table{
     display: flex;
     margin: 30px auto;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .table-header{
@@ -130,11 +132,18 @@ h1{
 
 .piano{
     border: #000 1px solid;
+    height: 800px;
     margin: auto 25px;
 }
 
 .plan-info{
     padding: 20px 30px;
+    position: relative;
+}
+
+.plan-check li::before{
+    content: "\2713\0020";
+    color: #0160FF;
 }
 
 .plan-name{
@@ -151,8 +160,10 @@ h1{
     padding-top: 5px;
 }
 
-.plan-user{
-    list-style-type: "\f007"
+
+
+.plan-storage::before{
+    content: "icon";
 }
 
 li{
@@ -182,6 +193,14 @@ ul{
     margin-top: 60px;
 }
 
+#piano-orizzontale{
+    height: 350px;
+}
+
+#piano-orizzontale .solution{
+    margin-top: 40px;
+}
+
 .solution{
     padding: 20px 30px;
 }
@@ -193,6 +212,7 @@ ul{
 }
 .partnerimg{
     height: auto;
+    width: 50%;
 }
 
 .partnerimg img{
@@ -200,12 +220,31 @@ ul{
 }
 
 .partnertxt{
+    width: 50%;
     display: inline;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
+.partnertxt h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
 
+.partnertxt p{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.whitebutton{
+    padding: 10px;
+    border: 2px solid #000;
+    margin-top: 30px;
+}
+
+.whitebutton a{
+    font-size: 20px;
+}
 /* Regole sezione 6 cards */
 .operations{
     display: flex;
@@ -225,8 +264,8 @@ ul{
 }
 
 .strumenti-img{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .strumenti-img img{
@@ -239,12 +278,18 @@ ul{
     padding-right: 400px;
 }
 
-h2{
-    font-size: 50px;
-    font-weight: 700;
+.team-client h2{
+    font-size: 80px;
+    font-weight: 700; 
+    margin: 100px auto;
+}
+
+.clienti{
+    margin-bottom: 800px;
 }
 
 .clienti a{
+    font-size: 22px;
     text-decoration: underline;
     color: #0160FF;
 }
@@ -253,6 +298,7 @@ h2{
 .partner{
     width: 100vw;
     display: flex;
+    margin-top: 100px;
 }
 
 .company{
@@ -340,7 +386,7 @@ h2{
 .button-freetrial{
     border: 1px solid #BFBFBF;
     background-color: #fff;
-    padding: 5px;
+    padding: 10px 30px;
 }
 
 /* Regole sezione FAQ */
@@ -378,6 +424,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
     line-height: 40px;
+}
+
+.pie li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .lingua{

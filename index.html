@@ -95,6 +95,7 @@
             </div>
         </div>
     </div>
+    <!-- Sezione selezione piano premium -->
     <div class="plan-selector  wrapper">
         <h2>Trova il piano business che fa per te</h2>
         <br>
@@ -109,14 +110,14 @@
         <div class="plan-table">
             <!-- Singolo -->
             <div class="piano">
-                <p class="table-header"><i class="fa-solid fa-user"></i>Singolo</p>
+                <p class="table-header"><i class="fa-solid fa-user"></i> Singolo</p>
                 <div class="plan-info">
                     <h3 class="plan-name">Professional</h3>
                     <strong class="price">€ 12.00</strong>
                     <p class="mese">/mese</p>
                     <!-- Lista features piano singolo -->
                     <ul>
-                        <li class="plan-user">1 utente</li>
+                        <li id="single-plan-user">1 utente</li>
                         <li class="plan-storage">5 TB di spazio di archiviazione sicuro</li>
                         <li class="plan-sharing">Funzioni di produttività premium e condivisione file semplice e sicura</li>
                     </ul>
@@ -125,71 +126,75 @@
                     <p class="buynow">oppure <a href="#">acquista ora</a></p>
                     <hr>
                     <strong class="plan-highlights">Punti salienti del piano</strong>
-                    <ul>
+                    <ul class="plan-check">
                         <li>Invia file fino a 100 GB con Dropbox Transfert</li>
                         <li>Cartelle offline su dispositivi mobili</li>
                     </ul>
                 </div>
             </div>
             <div class="piano">
-                <p class="table-header"><i class="fa-solid fa-user"></i>Singolo</p>
+                <p class="table-header"><i class="fa-solid fa-people-group"></i> Team</p>
                 <div class="plan-info">
-                    <h3 class="plan-name">Professional</h3>
-                    <strong class="price">€ 12.00</strong>
-                    <p class="mese">/mese</p>
+                    <h3 class="plan-name">Advanced</h3>
+                    <strong class="price">€ 18.00</strong>
+                    <p class="mese">/utente/mese</p>
                     <!-- Lista features piano singolo -->
                     <ul>
-                        <li class="plan-user">1 utente</li>
-                        <li class="plan-storage">5 TB di spazio di archiviazione sicuro</li>
-                        <li class="plan-sharing">Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        <li id="team-plan-user">3 o più utenti</li>
+                        <li class="plan-storage">Tutto lo spazio di cui ha bisogno il tuo team</li>
+                        <li class="plan-sharing">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
                     </ul>
 
                     <span class="bluebutton"><a href="#">Prova gratis per 30 giorni</a></span>
                     <p class="buynow">oppure <a href="#">acquista ora</a></p>
                     <hr>
                     <strong class="plan-highlights">Punti salienti del piano</strong>
-                    <ul>
-                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                    <ul class="plan-check">
+                        <li>Nessun limite di spazio per i file</li>
                         <li>Cartelle offline su dispositivi mobili</li>
+                        <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                        <li>Possibilità di inserire nuovi membri del team</li>
+                        <li>Gestione dei permessi in base ai ruoli</li>
                     </ul>
                 </div>
             </div>
             <div class="piano">
-                <p class="table-header"><i class="fa-solid fa-user"></i>Singolo</p>
+                <p class="table-header"><i class="fa-solid fa-building"></i> Azienda</p>
                 <div class="plan-info">
-                    <h3 class="plan-name">Professional</h3>
-                    <strong class="price">€ 12.00</strong>
-                    <p class="mese">/mese</p>
+                    <h3 class="plan-name">Enterprise</h3>
+                    <strong class="price">Contattaci</strong>
+                    <p class="mese">-</p>
                     <!-- Lista features piano singolo -->
                     <ul>
-                        <li class="plan-user">1 utente</li>
-                        <li class="plan-storage">5 TB di spazio di archiviazione sicuro</li>
-                        <li class="plan-sharing">Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        <li id="enterprise-plan-user">10 o più utenti</li>
+                        <li class="plan-storage">Soluzioni personalizzabili per la tua azienda</li>
+                        <li class="plan-sharing">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala </li>
                     </ul>
 
-                    <span class="bluebutton"><a href="#">Prova gratis per 30 giorni</a></span>
+                    <span class="bluebutton"><a href="#">Contattaci</a></span>
                     <p class="buynow">oppure <a href="#">acquista ora</a></p>
                     <hr>
                     <strong class="plan-highlights">Punti salienti del piano</strong>
-                    <ul>
-                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                    <ul class="plan-check">
                         <li>Cartelle offline su dispositivi mobili</li>
+                        <li>Servizio assistenza 24h</li>
+                        <li>Possibilità di personalizzazione totale</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="horizontal-row">
-            <div class="piano">
-                <p class="table-header"><i class="fa-solid fa-user"></i>Singolo</p>
+            <div id="piano-orizzontale" class="piano">
+                <p class="table-header"><i class="fa-solid fa-building"></i> Team</p>
                 <div id="horizontal-row" class="plan-info">
                     <div class="enterprise">
-                        <h3 class="plan-name">Professional</h3>
-                        <span class="bluebutton"><a href="#">Prova gratis per 30 giorni</a></span>
+                        <h3 class="plan-name">Enterprise</h3>
+                        <span class="bluebutton"><a href="#">Contatta l'ufficio vendite</a></span>
                     </div>
-                    <strong class="price">€ 12.00</strong>
+                    <strong class="price">Contatta l'ufficio vendite per i prezzi</strong>
                     
                 </div>
-                <p class="solution">Soluzioni personalizzate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam earum officiis quam repellat commodi. Sit quod voluptatum molestiae excepturi deserunt fugit, ex distinctio velit perferendis quo ea, illum sapiente! Dolor!</p>
+                <p class="solution">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
             </div>
         </div>
     
@@ -226,7 +231,7 @@
 
         <div class="strumenti">
             <div class="strumenti-img">
-                <img src="img/business-feature-switching-tools.png" alt="">
+                <img src="img/business-feature-send-files-it.png" alt="">
             </div>
             <h4>
                 Passa di meno da uno strumento all'altro
@@ -236,7 +241,7 @@
         
         <div class="strumenti">
             <div class="strumenti-img">
-                <img src="img/business-feature-switching-tools.png" alt="">
+                <img src="img/business-feature-coordinate-it.png" alt="">
             </div>
             <h4>
                 Passa di meno da uno strumento all'altro
@@ -246,7 +251,7 @@
         
         <div class="strumenti">
             <div class="strumenti-img">
-                <img src="img/business-feature-switching-tools.png" alt="">
+                <img src="img/business-feature-integrations-it.png" alt="">
             </div>
             <h4>
                 Passa di meno da uno strumento all'altro
@@ -256,7 +261,7 @@
 
         <div class="strumenti">
             <div class="strumenti-img">
-                <img src="img/business-feature-switching-tools.png" alt="">
+                <img src="img/business-feature-multi-device.png" alt="">
             </div>
             <h4>
                 Passa di meno da uno strumento all'altro
@@ -266,7 +271,7 @@
 
         <div class="strumenti">
             <div class="strumenti-img">
-                <img src="img/business-feature-switching-tools.png" alt="">
+                <img src="img/business-feature-security.png" alt="">
             </div>
             <h4>
                 Passa di meno da uno strumento all'altro
@@ -385,7 +390,7 @@
             <div class="dropbox">
                 <h3>Dropbox</h3>
                 <br>
-                <ul>
+                <ul class="pie">
                     <li>Applicazioni Desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -398,7 +403,7 @@
             <div class="prodotti">
                 <h3>Prodotti</h3>
                 <br>
-                <ul>
+                <ul class="pie">
                     <li>Applicazioni Desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -411,7 +416,7 @@
             <div class="azienda">
                 <h3>Azienda</h3>
                 <br>
-                <ul>
+                <ul class="pie">
                     <li>Applicazioni Desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -424,7 +429,7 @@
             <div class="support">
                 <h3>Supporto</h3>
                 <br>
-                <ul>
+                <ul class="pie">
                     <li>Applicazioni Desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -437,7 +442,7 @@
             <div class="community">
                 <h3>Community</h3>
                 <br>
-                <ul>
+                <ul class="pie">
                     <li>Applicazioni Desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
