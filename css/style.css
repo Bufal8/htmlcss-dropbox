@@ -309,6 +309,48 @@ h2{
     background-color: #FFD72F;
 }
 
+
+/* Regole sezione call-to-action */
+.calltoaction{
+    display: flex;
+    padding: 100px 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b3d0e7;
+}
+
+.calltoaction h3{
+    font-size: 30px;
+    color: #763d5c;
+}
+
+.button-freetrial{
+    border: 1px solid #BFBFBF;
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Regole sezione FAQ */
+.centratore{
+    padding: 100px 300px;
+}
+
+.question-answer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding: 30px 10px;
+}
+
+
+.nswr{
+    display: none;
+}
+
+.qstn:hover .nswr{
+    display: inline;
+}
 /* Regole Footer */
 
 footer{
