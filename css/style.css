@@ -38,6 +38,7 @@ header{
     background-color: #fff;
     width: 100vw;
     margin-bottom: 100px;
+    z-index: 900;
 }
 
 .left-header{
@@ -56,6 +57,11 @@ header{
 
 .sezione-header{
     padding: 20px;
+}
+
+.sezione-header:hover{
+    border-bottom: 2px solid #000;
+    cursor: pointer;
 }
 
 /* Regole Main */
@@ -82,6 +88,7 @@ h1{
 
 .jumbotxtimg{
     display: flex;
+    position: relative;
 }
 
 .jumbo-container{
@@ -89,11 +96,16 @@ h1{
 }
 
 .jumbotext{
-    width: 30%;
+    width: 40%;
+    transform: translateY(12%);
+
 }
 
 .jumboimg{
-    width: 70%;
+    width: 82%;
+    position: relative;
+    transform: translateY(12%);
+
 }
 
 .jumboimg img{
@@ -101,7 +113,8 @@ h1{
 }
 
 #freetrial{
-    margin-right: 160px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 /* Regole plan selector */
