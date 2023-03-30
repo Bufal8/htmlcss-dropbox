@@ -19,12 +19,18 @@ body{
     color: #fff;
 }
 
+p{
+    font-size: 24px;
+}
+
 a{
+    font-size: 20px;
     text-decoration: none;
     color: #000;
 }
 
 li{
+    font-size: 20px;
     list-style: none;
 }
 
@@ -139,6 +145,10 @@ h1{
 .plan-info{
     padding: 20px 30px;
     position: relative;
+}
+
+.plan-check li{
+    font-size: 17px;
 }
 
 .plan-check li::before{
@@ -325,7 +335,7 @@ ul{
 }
 
 .company-info{
-    font-size: 12px;
+    font-size: 20px;
 }
 .selected{
     background-color: #F5F5F5;
